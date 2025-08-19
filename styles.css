@@ -1,0 +1,18 @@
+/* HeartWays Styles */
+:root {
+  --ink:#0e3a5a;
+  --soft:#2f6a9f;
+  --accent:#2e86ff;
+  --bg: radial-gradient(circle at 80% -10%, #eaf6ff 20%, #f7fbff 60%, #ffffff 100%);
+  --radius:18px;
+  --shadow:0 10px 30px rgba(46,134,255,.12);
+  --fs-h1: clamp(1.2rem, 1rem + 1.6vw, 2rem);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Arial;background:var(--bg);color:var(--ink);line-height:1.5;direction:rtl;}
+header{display:flex;justify-content:space-between;align-items:center;padding:10px 20px}
+.lang-toggle button{border:0;background:transparent;cursor:pointer;font-weight:700;margin:0 4px}
+.hero{padding:20px;border-radius:var(--radius);box-shadow:var(--shadow);background:rgba(255,255,255,.7);margin:20px 0}
+.orbs{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:16px}
+.orb{padding:12px;border-radius:var(--radius);background:white;box-shadow:var(--shadow);cursor:pointer;text-align:center}
+footer{padding:20px;font-size:.9rem;color:#56779c;text-align:center}

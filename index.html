@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HeartWays — פתיחה</title>
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<header>
+  <div><img src="assets/logo.svg" alt="HeartWays by Azure" width="120"/></div>
+  <div class="lang-toggle">
+    <button onclick="document.documentElement.lang='he';document.documentElement.dir='rtl';">HE</button>
+    <button onclick="document.documentElement.lang='en';document.documentElement.dir='ltr';">EN</button>
+  </div>
+</header>
+<main class="hero">
+  <h1>HeartWays — פתיחה</h1>
+  <p>בחרו את הדרך להתחיל במסע הלב:</p>
+  <div class="orbs">
+    <div class="orb" onclick="navigate('music')">🎵 מוזיקה</div>
+    <div class="orb" onclick="navigate('writing')">✍️ כתיבה</div>
+    <div class="orb" onclick="navigate('art')">🎨 אמנות</div>
+    <div class="orb" onclick="navigate('voice')">🎤 קול</div>
+    <div class="orb" onclick="navigate('healing')">🌿 ריפוי</div>
+    <div class="orb" onclick="navigate('gift')">🧭 מצפן מתנות</div>
+    <div class="orb" onclick="navigate('map')">🗺️ מפת יצירה</div>
+    <div class="orb" onclick="navigate('capsule')">🌍 קפסולת לב עולמית</div>
+    <div class="orb" onclick="navigate('about')">ℹ️ אודות</div>
+  </div>
+</main>
+<footer>© HeartWays by Azure — Aug 2025</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
